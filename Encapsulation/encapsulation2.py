@@ -1,7 +1,7 @@
 class Wallet:
   def __init__(self, own, balance):
       self.own = own
-    self.__balance = balance
+      self.__balance = balance
   @property
   def g_balance(self):
     return self.__balance
